@@ -1,0 +1,68 @@
+.calc{
+    width: 480px;
+    height: 535px;
+    background-color: darkgray;
+    margin-left: 326px;
+    padding-top: 5px;
+}.output{
+    background-color:white;
+    height: 79px;
+    margin-top: 7px;
+    width: 94.1%;
+    margin-left: 14px;
+    
+
+}#screener{
+    width: 97.74%;
+    height: 90%;
+    margin-top: 1px;
+    margin-left: 1px;
+    pointer-events:none;
+}
+    .clrbtn{
+        width: 94px;
+        margin-left: 18px;
+        height: 48px;
+        margin-top: 10px;
+        background-color: darkred;
+        color: ghostwhite;
+        font-size: 40px;
+
+}.btn{
+    width: 94px;
+    margin-left: 18px;
+    height: 48px;
+    margin-top: 32px;
+    background-color: black;
+    color: lawngreen;
+    font-size: 40px;
+}.btn2{
+    color: lawngreen;
+    font-size: 40px;
+    background-color: black;
+    width: 94px;
+    margin-left: 18px;
+    height: 48px;
+    margin-top: 15px;
+}
+
+.btn3{
+    color: lawngreen;
+    font-size: 40px;
+    background-color: black;
+    width: 94px;
+    margin-left: 18px;
+    height: 48px;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.btn4{
+    background-color: black;
+    color: lawngreen;
+    font-size: 40px;
+    width: 94px;
+    margin-left: 18px;
+    height: 48px;
+    margin-top: 60px;
+}
