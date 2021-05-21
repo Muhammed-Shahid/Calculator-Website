@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css" type="text/css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calc">                      
+<div class="output">
+<input type="text" id="screener">
+</div>
+<div class="buttons">
+    <button onclick="clearDisp()" class="clrbtn">C</button>
+    <div class="row"></div> 
+    <button onclick="btnclick(7)" class="btn">7</button>
+    <button onclick="btnclick(8)" class="btn">8</button>
+    <button onclick="btnclick(9)" class="btn">9</button>
+    <button onclick="btnclick('/')" class="btn">/</button></div><br>
+    <div class="row"></div><br>
+    <button onclick="btnclick(4)" class="btn2">4</button>
+    <button onclick="btnclick(5)" class="btn2">5</button>
+    <button onclick="btnclick(6)" class="btn2">6</button>
+    <button onclick="btnclick('*')" class="btn2">x</button>
+    <div class="row"></div><br>
+    <button onclick="btnclick(1)" class="btn3">1</button>
+    <button onclick="btnclick(2)" class="btn3">2</button>
+    <button onclick="btnclick(3)" class="btn3">3</button>
+    <button onclick="btnclick('-')" class="btn3">-</button>
+    <div class="row"></div>
+    <button onclick="btnclick('.')" class="btn4">.</button>
+    <button onclick="btnclick(0)"  class="btn4">0</button>
+    <button onclick="equalbtn()" class="btn4">=</button>
+    <button onclick="btnclick('+')" class="btn4">+</button>
+</div>
+</div>
+
+    </div>
+</body>
+</html>
